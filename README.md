@@ -2,7 +2,7 @@
 
 ```
 sudo -i
-apt install zsh
+apt install -y zsh
 chsh root -s /bin/zsh
 snap install chezmoi --classic
 chezmoi init https://github.com/Goldfels/awsdf.git
